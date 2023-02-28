@@ -1,0 +1,20 @@
+Iniciar Proyecto Backend -> npm init
+
+Instalar Express (para trabajar http, url) ->  npm install --save express
+
+Instalar body-parse (permite enviar formulario y lo convierte en Json) -> npm install --save body-parse
+
+Instalar Libreria Mongous (trabajar con base de datos) ->npm install --save mongoose
+
+Instalar Libreria Multiparty(Permite con el file, subir archivos)-> npm install --save connect-multiparty
+
+Instalar Libreria Validator (valida caracteristicas para ingresar los datos en la base) npm install --save validator
+
+
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "validator": "^13.9.0"
+  }
